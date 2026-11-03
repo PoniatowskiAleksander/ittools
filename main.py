@@ -127,8 +127,7 @@ if __name__ == '__main__':
 
     print("--- MIESZKANIA ---")
     for apartment in manager.apartments.values():
-        print(f"Mieszkanie: {apartment.name} ({apartment.location}), pow: {apartment.area_m2} m2")
-        print("  Pokoje:")
+        print(f"Mieszkanie: {apartment.name} | Lokalizacja: {apartment.location} | Powierzchnia: {apartment.area_m2} m2")
         for room in apartment.rooms.values():
             print(f"    - {room.name}: {room.area_m2} m2")
         
