@@ -84,6 +84,7 @@ class Bill(BaseModel):
 
 
 class ApartmentSettlement(BaseModel):
+    # liczenie oplat do mieszkania
     apartment: str
     settlement_year: int
     settlement_month: int
