@@ -5,14 +5,18 @@
         "location": "Polanka 3a",
         "area_m2": 65,
         "rooms": {
-            "room-bigger": {
-                "name": "Bigger Room",
-                "area_m2": 20
+            "room-1": {
+                "name": "Room 1",
+                "area_m2": 20.0
             },
-            "room-smaller": {
-                "name": "Smaller Room",
-                "area_m2": 15
+            "room-2": {
+                "name": "Room 2",
+                "area_m2": 15.0
+            },
+            "room-3": {
+                "name": "Room 3",
+                "area_m2": 10.0
             }
         }
-    } 
+    }
 }
