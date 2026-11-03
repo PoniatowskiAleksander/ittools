@@ -93,6 +93,7 @@ class ApartmentSettlement(BaseModel):
     amount_to_settle_pln: float
 
 class TenantSettlement(BaseModel):
+    # Rozliczenie dla konkretnego najemcy
     tenant: str
     apartment: str
     settlement_year: int
@@ -101,7 +102,7 @@ class TenantSettlement(BaseModel):
     total_bills_pln: float
     total_transfer_pln: float
     balance_pln: float
-    
+
 class Manager:
     def __init__(self, parameters: Parameters):
         self.parameters = parameters 
